@@ -31,7 +31,7 @@ ifeq ($(UNAME), Darwin)
 else
    SWIG_INC     += -I"$(DEPSDIR)/include/python$(PYVER)"
 	# Comment this .a file for 13.04
-   STATICPYTHON +=   "$(DEPSDIR)/lib/libpython$(PYVER).a"
+   #STATICPYTHON +=   "$(DEPSDIR)/lib/libpython$(PYVER).a"
 
 
 endif
